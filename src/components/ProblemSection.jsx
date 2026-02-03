@@ -5,18 +5,18 @@ import './ProblemSection.css'
 const problems = [
   {
     icon: '📊',
-    title: 'No Clear Strategy',
-    description: "You're saving and investing, but without a cohesive plan, you're not sure if you're on track for retirement or if your portfolio actually matches your risk tolerance."
+    title: 'No Clear Coverage',
+    description: "You may already have a health card or insurance, but without understanding coverage limits, exclusions, and hospital access, you’re not sure if you’re truly protected when illness strikes."
   },
   {
     icon: '⚠️',
-    title: 'Costly Mistakes',
-    description: 'High fees, poor tax planning, and reactive decisions can quietly erode thousands from your wealth over time—without you even realizing it.'
-  },
+    title: 'Costly Medical Bills',
+    description: 'Unexpected hospitalizations, procedures, and diagnostics can quietly drain your savings especially when your plan doesn’t cover what you thought it would.'
+  },  
   {
     icon: '😰',
-    title: 'Overwhelming Options',
-    description: "Between 401(k)s, IRAs, insurance policies, and conflicting advice, making confident decisions feels impossible when you're juggling everything alone."
+    title: 'Overwhelming Health Options',
+    description: "Between HMOs, health cards, riders, and insurance plans, choosing the right coverage feels confusing especially when every provider claims to be “the best.”"
   }
 ]
 
@@ -47,8 +47,8 @@ export default function ProblemSection() {
       <div className="container">
         <div className="section-header">
           <span className="section-label">The Challenge</span>
-          <h2>Financial Confusion Shouldn't Cost You Your Future</h2>
-          <p>You're doing well—but managing it all alone feels like navigating without a map. You deserve better.</p>
+          <h2>Health Uncertainty Shouldn’t Cost You Your Savings</h2>
+          <p>You’re trying to stay healthy but navigating medical costs, coverage limits, and hospital access feels like guessing without a guide. You deserve better protection.</p>
         </div>
 
         <motion.div 
@@ -77,7 +77,8 @@ export default function ProblemSection() {
           transition={{ delay: 0.6, duration: 0.6 }}
         >
           <h3>There's a Better Way Forward</h3>
-          <p>You don't need complexity—you need clarity. Our proven process helps professionals like you build wealth strategically, minimize taxes legally, protect what matters most, and retire confidently. We cut through the noise to create a personalized roadmap that actually works for your life.</p>
+          <p>You don’t need more plans you need clarity.
+Our proven health protection process helps individuals and families choose the right coverage, avoid coverage gaps, manage medical risks, and protect their savings with confidence. We simplify your options and create a personalized health protection roadmap that actually works before you need it most. Because health emergencies don’t give warnings but preparation makes all the difference.</p>
         </motion.div>
       </div>
     </section>

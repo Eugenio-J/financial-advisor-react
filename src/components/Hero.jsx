@@ -33,15 +33,16 @@ export default function Hero({ onCTAClick }) {
           animate="visible"
         >
           <motion.span variants={itemVariants} className="hero-badge">
-            Trusted by Over 500 Families
+            Trust by Hundreds of Families Nationwide
           </motion.span>
           
           <motion.h1 variants={itemVariants}>
-            Your Financial Future Deserves More Than Guesswork
+            YOUR GUIDE TO CREATE FINANCIAL SHIELD AGAINST HEALTH EMERGENCIES
           </motion.h1>
           
           <motion.p variants={itemVariants} className="hero-subheadline">
-            Stop feeling overwhelmed about retirement, investments, and your financial future. Get a personalized strategy designed around your goals—with clarity, confidence, and zero pressure.
+            Stop feeling overwhelmed about medical bills, hospital access, and health coverage. 
+            Get a personalized health protection plan designed around your needs with clarity, confidence, and zero pressure.
           </motion.p>
           
           <motion.button 
@@ -51,18 +52,18 @@ export default function Hero({ onCTAClick }) {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
-            Get Your Free Financial Assessment →
+            Get Your Free Health Protection Assessment →
           </motion.button>
           
           <motion.div variants={itemVariants} className="trust-indicators">
             <div className="trust-item">
-              <strong>15+</strong> Years Experience
+              <strong>4+</strong> Years Experience
             </div>
             <div className="trust-item">
-              <strong>CFP®</strong> Certified
+              <strong>Licensed Health & Life Insurance Advisor</strong>
             </div>
             <div className="trust-item">
-              <strong>Fiduciary</strong> Standard
+              <strong>Client-First</strong> Protection Approach
             </div>
           </motion.div>
         </motion.div>

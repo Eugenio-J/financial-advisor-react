@@ -5,18 +5,18 @@ import './HowItWorks.css'
 const steps = [
   {
     number: 1,
-    title: 'Share Your Goals',
-    description: 'Complete our brief questionnaire so we understand your current situation, priorities, and what you want to achieve with your finances.'
+    title: 'Share Your Health Needs',
+    description: 'Complete a short questionnaire so we understand your current health coverage, medical concerns, budget, and what level of protection you want for yourself or your family.'
   },
   {
     number: 2,
-    title: 'Personalized Strategy',
-    description: 'We analyze your financial picture and create a customized roadmap addressing your retirement, investments, taxes, and insurance needs.'
+    title: 'Personalized Health Strategy',
+    description: 'We review your situation and design a customized health protection plan matching you with the right HMO, health card, or insurance coverage based on benefits, limits, and hospital access.'
   },
   {
     number: 3,
-    title: 'Free Consultation',
-    description: 'Meet with us to review your strategy, ask questions, and decide if working together makes sense—with absolutely no obligation.'
+    title: 'Free Health Consultation',
+    description: 'Meet with us to walk through your options, clarify benefits and exclusions, and decide if the plan makes sense for you-no obligation, no pressure.'
   }
 ]
 
@@ -47,8 +47,8 @@ export default function HowItWorks() {
       <div className="container">
         <div className="section-header">
           <span className="section-label">Simple Process</span>
-          <h2>Three Steps to Financial Clarity</h2>
-          <p>Getting started is straightforward—no complicated jargon, no pressure, just a clear path forward.</p>
+          <h2>Three Steps to Health Protection Clarity</h2>
+          <p>Getting started is simple, no medical jargon overload, no pressure, just a clear path to proper health coverage.</p>
         </div>
 
         <motion.div 
