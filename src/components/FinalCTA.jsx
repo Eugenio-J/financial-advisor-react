@@ -21,7 +21,7 @@ export default function FinalCTA({ onCTAClick }) {
           transition={{ duration: 0.6 }}
         >
           <h2>You Deserve Financial Peace of Mind</h2>
-          <p>Don't leave your financial future to chance. Get expert guidance that puts your interests first and gives you confidence in every decisions.</p>
+          <p>Don't leave your financial future to chance. Get expert guidance that puts your interests first and gives you confidence in every decision.</p>
           
           <div className="guarantee-items">
             {guarantees.map((item, index) => (
